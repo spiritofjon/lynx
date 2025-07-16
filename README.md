@@ -33,7 +33,7 @@ Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.
 
 ### Git Submodule
 
-Add Beautifulhugo as git submodule:
+Add Lynx as git submodule:
 
     $ git submodule add https://github.com/spiritofjon/lynx.git themes/lynx
 
@@ -44,7 +44,7 @@ Initialize your site as hugo module:
 
     $ hugo mod init github.com/USERNAME/SITENAME
 
-Add Beautifulhugo module as a dependency of your site:
+Add Lynx module as a dependency of your site:
 
     $ hugo mod get github.com/spiritofjon/lynx
 
@@ -55,7 +55,7 @@ Copy the content of `exampleSite` at the root of your project:
 
     cp -r themes/lynx/exampleSite/* . -iv
 
-If you installed Beautifulhugo as hugo module, set your theme in your config file (hugo.toml):
+If you installed Lynx as hugo module, set your theme in your config file (hugo.toml):
 
     [[module.imports]]
       path = "github.com/spiritofjon/lynx"
@@ -140,14 +140,6 @@ When the site is rebuilt, the new custom link will appear.
 
 * * *
 
-## Contributing
+## About
 
-Lynx is expected to evolve over time. I intend to keep adding features and making changes as required.
-
-Feel free to get in touch with any issues or suggestions for new features you'd like to see.
-
-- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/jpanther/lynx/issues)
-- 💡 **Ideas for new features:** Open a discussion on [GitHub Discussions](https://github.com/jpanther/lynx/discussions)
-- 🙋‍♀️ **General questions:** Head to [GitHub Discussions](https://github.com/jpanther/lynx/discussions)
-
-If you're able to fix a bug or implement a new feature, I welcome PRs for this purpose. Learn more in the [contributing guidelines](https://github.com/jpanther/lynx/blob/dev/CONTRIBUTING.md).
+This is an adaptation of the Lynx theme [Lynx](https://https://github.com/jpanther/lynx/) by [James Panther](https://github.com/jpanther).
