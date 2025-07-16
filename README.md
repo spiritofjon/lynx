@@ -1,3 +1,9 @@
+# Modified by spiritofjon
+This theme has been personalized to my personal tastes. As such I recommend getting the original upstream version or at a minimum checking out the changes I've made by reading the commit logs.
+
+* * *
+* * *
+
 # Lynx
 
 Lynx is designed to be a simple links page powered by [Hugo](https://gohugo.io). It's built using Tailwind CSS and inspired by services like LinkTree.
@@ -17,15 +23,13 @@ Lynx is designed to be a simple links page powered by [Hugo](https://gohugo.io).
 - Fathom Analytics and Google Analytics support
 - Favicons support
 
----
+* * *
 
 ## Installation
 
 Lynx supports several installation methods - as a Hugo Module (easiest), a git submodule, or as a completely manual install.
 
-Below is a quick start guide using Hugo modules.
-
-### Quick start using Hugo
+### Quick start using Hugo modules
 
 > **Note:** Ensure you have **Go** and **Hugo** installed, and that you have created a new Hugo project before proceeding.
 
@@ -52,7 +56,13 @@ Below is a quick start guide using Hugo modules.
 
 As new releases are posted, you can update the theme using Hugo. Simply run `hugo mod get -u` from your project directory and the theme will automatically update to the latest release.
 
----
+### Quick start using Git Submodule
+
+Add Lynx as git submodule:
+
+    $ git submodule add https://github.com/spiritofjon/lynx.git themes/lynx
+
+* * *
 
 ## Configuration
 
@@ -124,7 +134,7 @@ Let's make a custom link for FontAwesome using the FA flag as the link icon and 
 
 When the site is rebuilt, the new custom link will appear.
 
----
+* * *
 
 ## Contributing
 
