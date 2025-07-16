@@ -37,6 +37,10 @@ Add Lynx as git submodule:
 
     $ git submodule add https://github.com/spiritofjon/lynx.git themes/lynx
 
+UPDATE:
+
+    $ git submodule update --remote --merge
+
 
 ### Hugo module
 
